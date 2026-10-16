@@ -1,0 +1,84 @@
+
+/* Style général */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    border: 1px solid black;
+}
+
+/* En-tête */
+header {
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Sections */
+section {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Accueil */
+.bienvenue {
+    text-align: center;
+    padding: 35px;
+}
+
+/* Produits */
+.produits {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.produit {
+    border: 1px solid black;
+    padding: 15px;
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+}
+
+/* Vente */
+#vendre p {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+/* Panier */
+#panier {
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
