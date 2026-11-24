@@ -49,34 +49,6 @@
             </div>
             <?php endforeach;?>
         </section>
-
-        <!-- Ajouter un produit -->
-        <section id="vendre">
-            <h2>Vendre un article</h2>
-            <p>Nom de l'article : __________</p>
-            <p>Prix en DH : __________</p>
-            <p>Quantité : __________</p>
-            <p>Description : __________</p>
-            <p>Numéro de téléphone : __________</p>
-
-            <a href="#vendre">Ajouter mon article</a>
-        </section>
-
-        <!-- Panier -->
-        <section id="panier">
-            <h2>Mon panier</h2>
-            <p>Produit choisi : __________</p>
-            <p>Quantité : __________</p>
-            <p>Total : __________ DH</p>
-
-            <p>La livraison n'est pas disponible.</p>
-            <p>Contactez le vendeur pour récupérer votre article.</p>
-
-            <a href="#acheter">Continuer les achats</a>
-        </section>
-
-    </main>
-
     <!-- Pied de page -->
     <footer>
         <p>Solde - Acheter et vendre à petits prix</p>
