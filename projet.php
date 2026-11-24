@@ -35,37 +35,19 @@
         <!-- Liste des produits -->
         <section id="acheter">
             <h2>Liste des produits</h2>
-
+<?php foreach($project as $pro):?>
             <div class="produits">
-
                 <article class="produit">
-                    <h3>Produit 1</h3>
-                    <p>Image du produit</p>
-                    <p>Description du produit</p>
-                    <p>Prix : 50 DH</p>
-                    <p>Quantité disponible : 5</p>
-                    <a href="#panier">Ajouter au panier</a>
-                </article>
-
-                <article class="produit">
-                    <h3>Produit 2</h3>
-                    <p>Image du produit</p>
-                    <p>Description du produit</p>
-                    <p>Prix : 80 DH</p>
-                    <p>Quantité disponible : 3</p>
-                    <a href="#panier">Ajouter au panier</a>
-                </article>
-
-                <article class="produit">
-                    <h3>Produit 3</h3>
-                    <p>Image du produit</p>
-                    <p>Description du produit</p>
-                    <p>Prix : 30 DH</p>
-                    <p>Quantité disponible : 10</p>
+                    <h3><?=htmlspecialchars($pro["titre"])?></h3>
+                    <p><?=htmlspecialchars($pro["image"])?></p>
+                    <p><?=htmlspecialchars($pro["Description"])?></p>
+                    <p><?=htmlspecialchars($pro["prix"])?></p>
+                    <p><?=htmlspecialchars($pro["Quantité"])?></p>
                     <a href="#panier">Ajouter au panier</a>
                 </article>
 
             </div>
+            <?php endforeach;?>
         </section>
 
         <!-- Ajouter un produit -->
